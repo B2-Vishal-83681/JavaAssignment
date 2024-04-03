@@ -1,5 +1,8 @@
 package tester;
-import com.app.geometry.Q1classPoint2D;
+import com.app.geometry.Q1Point2D;
+import java.util.Scanner;
+
+import com.app.geometry.Q1Point2D;
 import java.util.Scanner;
 public class TestPoint {
 
@@ -17,8 +20,8 @@ public class TestPoint {
         System.out.println("enter y point co-ordinate: ");
         int y2 = sc.nextInt();
 
-        Q1classPoint2D p1 = new Q1classPoint2D(x1, y1);
-        Q1classPoint2D p2 = new Q1classPoint2D(x2, y2);
+        Q1Point2D p1 = new Q1Point2D(x1, y1);
+        Q1Point2D p2 = new Q1Point2D(x2, y2);
 
         System.out.println("point 1 details.." + p1.getDetails());
         System.out.println("point 2 deatils.." + p2.getDetails());
